@@ -1,0 +1,244 @@
+/* Reset default margin and padding, set font family, and define background and text color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+/* Styles for the hero section */
+.hero {
+    /* Gradient background */
+    /* background: linear-gradient(to bottom, #0072c6, #70c6ff); */
+    background-image: url("./images/Hero_Background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white; /* Text color */
+    height: 45rem;
+    padding: 60px 20px; /* Padding for content */
+}
+
+/* Styles for the logo within the hero section */
+.hero_logo img {
+    height: 200px;
+    margin-bottom: 20px; /* Space below logo */
+}
+
+/* Styles for text within the hero section */
+.hero_text p {
+    width:37rem ;
+    font-size: 2em; /* Font size */
+    margin: 20px auto; /* Margin around text */
+    line-height: 1.4; /* Line height */
+}
+
+/* Styles for buttons within the hero section */
+.hero_button a {
+    display: inline-block; /* Display as block element */
+    padding: 10px 20px; /* Padding */
+    margin-top: 20px; /* Space above button */
+    border: 2px solid white; /* Border */
+    border-radius: 18px; /* Border radius */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background 0.3s, color 0.3s; /* Transition effect */
+}
+
+/* Hover styles for buttons within the hero section */
+.hero_button a:hover {
+    background: white; /* Background color on hover */
+    color: #0072c6; /* Text color on hover */
+}
+
+/* Styles for the updates section */
+.updates {
+    background-color: #fff; /* Background color */
+    padding: 40px 20px; /* Padding for content */
+}
+
+/* Styles for headings within the updates section */
+.updates h3 {
+    color: #333; /* Text color */
+
+}
+.updates h1 {
+    color: #333; /* Text color */
+    font-size: 35px;
+}
+/* Styles for the container of update cards */
+.updates_grid {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    gap: 7rem; /* Gap between items */
+    flex-wrap: wrap; /* Wrap items if they overflow */
+    margin-top: 20px; /* Space above container */
+
+}
+
+/* Styles for individual update cards */
+.update_card {
+    background: #E4EBEF; /* Background color */
+    /* border-radius: 12px; Border radius */
+    /* padding: 15px; Padding */
+    width: 350px; /* Card width */
+    height: 420px;
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for images within update cards */
+.update_card img {
+    width: 100%; /* Image width */
+    /* border-radius: 10px; Border radius */
+}
+
+/* Styles for paragraphs within update cards */
+.update_card h4 {
+    font-size: 0.95em; /* Font size */
+    font-weight: bolder;
+    margin: 10px 10px auto 10px; /* Margin */
+}
+
+.update_card h5{
+    font-size: 0.75rem; /* Font size */
+    margin: 25px 10px;
+    font-weight: 500;
+}
+/* Styles for links within update cards */
+.update_card a {
+    color: #0072c6; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding-left: 0.75rem;
+}
+
+/* Styles for the programs section */
+.programs {
+    background-color: #E4EBEF; /* Background color */
+    padding: 40px 20px; /* Padding for content */
+}
+
+/* Styles for heading within the programs section */
+.programs h2 {
+    color: #508991; /* Text color */
+    margin-bottom:3rem;
+}
+
+/* Styles for the container of program cards */
+.programs_grid {
+    margin-top: 2rem;
+    background-color: #E4EBEF;
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    gap: 20px; /* Gap between items */
+    flex-wrap: wrap; /* Wrap items if they overflow */
+    margin-top: 20px; /* Space above container */
+}
+
+/* Styles for individual program cards */
+.program_card {
+    display: flex;
+    margin-top: 2rem;
+    background: #fff; /* Background color */
+    border-radius: 10px; /* Border radius */
+    padding: auto; /* Padding */
+    width: 800px; /* Card width */
+    height: 350px;
+    text-align: left; /* Text alignment */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for elevation */
+}
+
+/* Styles for images within program cards */
+.program_card img {
+    width: 268.45px; /* Image width */
+    height: 265.89px;
+    margin: auto; /* Space below image */
+}
+.program_card a{
+    width: 120px;
+    height: 30px;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    border: solid 1px;
+    padding-left: 1.7rem;
+    padding-top: 7px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #90A5B5;
+}
+.program_card a:hover{
+    background: white; /* Background color on hover */
+    color: #0072c6; /* Text color on hover */
+    transition: 0.1s;
+    scale: 1.01;
+}
+.program_text_right{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 184px;
+    /* margin: auto auto; */
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+.program_text_left{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 184px;
+    /* margin: auto auto; */
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+/* Styles for headings within program cards */
+.program_card h3 {
+    font-size: 1.2em; /* Font size */
+    margin-bottom: 10px; /* Space below heading */
+    color: #0072c6; /* Text color */
+}
+/* Styles for paragraphs within program cards */
+.program_card p {
+    font-size: 0.75em; /* Font size */
+    margin-bottom: 15px; /* Space below paragraph */
+}
+.see_more a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #508991;
+    display: inline-block;
+   position: relative;
+}
+/* Underline animation for see more */
+.see_more a::after{
+content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #508991;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.see_more a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* .see_more a:hover{
+    text-decoration: underline;
+    transition:ease-in 1s;
+} */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
