@@ -8,6 +8,7 @@ body {
     justify-content: space-between;
     background-color: #FAFAFA;
     padding: 20px;
+
 }
 
 .footer-section {
@@ -15,19 +16,25 @@ body {
     margin-left: 10px;
 }
 
-.footer-section p {
+.title{
     font-size: 16px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 100px;
 }
-
-.footer-section a {
-    font-size: 14;
+.subtitle{
+    text-align: left;
+    font-size: 14px;
     display: block;
     color: #005E8A;
     text-decoration: none;
     margin-bottom: 5px;
     margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+
 }
+
 
 .footer-section a:hover {
     text-decoration: underline;
@@ -54,6 +61,7 @@ body {
     display: flex;
     align-items: center;
     margin: 0 20px;
+    gap: 20px;
 }
 
 .footer-bottom img {
@@ -98,7 +106,7 @@ body {
     margin-top: 0px;
   }
     .footer-bottom p {
-        text-align: left;
+        text-align: center;
         margin-top: 20px;
     }
 }

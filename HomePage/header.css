@@ -11,6 +11,7 @@ header {
     background-color: #F3F3F3;
     position: relative;
     z-index: 1000;
+    max-height: 64px;
 }
 
 .logo img {
